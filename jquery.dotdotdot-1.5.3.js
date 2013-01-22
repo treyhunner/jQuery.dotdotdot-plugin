@@ -516,7 +516,7 @@
 		var h = $el.innerHeight(),
 			a = [ 'paddingTop', 'paddingBottom' ];
 
-		for ( z = 0, l = a.length; z < l; z++ ) {
+		for ( var z = 0, l = a.length; z < l; z++ ) {
 			var m = parseInt( $el.css( a[ z ] ), 10 );
 			if ( isNaN( m ) )
 			{
